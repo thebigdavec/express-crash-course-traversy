@@ -9,7 +9,7 @@ const app = express();
 // Initialise middleware
 // app.use(logger);
 // Handlebars middleware
-app.engine('handlebars', exphbs({defaultLayour: 'main'}));
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 // Body Parser middleware
 app.use(express.json());
